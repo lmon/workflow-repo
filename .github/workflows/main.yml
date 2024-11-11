@@ -1,6 +1,10 @@
 name: AJobToSayHello
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+      - 'alt-action-trigger'
 
 jobs:
   hello_world_job:
